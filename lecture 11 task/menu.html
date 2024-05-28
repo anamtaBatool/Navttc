@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body{
+            background-image: url(image.jpg);
+    
+        }
+        .menu{
+            color: rgb(247, 248, 248);
+            text-align: center;
+            font-size: larger;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .menu-item{
+            display: flex;
+            text-align: center;
+            padding: 20px 0;
+            flex-direction: column;
+            color:aliceblue ;
+        }
+        #main{
+            color: hsla(9, 88%, 30%, 0.5);
+            border: 4px rgba(144, 90, 86,0.5) solid;
+            border-radius: 5%;
+        }
+        
+        button {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color:rgba(114, 90, 86, 0.5);
+    color: #380606; 
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <section class="menu">
+        <h1>Our Menu</h1>
+        <div class="menu-item">
+            <div class="menu-item">
+                <h3 id="main">Espresso</h3>
+                <p>A shot of intense coffee with rich flavor.</p>
+                <h3 id="main">Cappuccino</h3>
+                <p>Espresso with steamed milk and a frothy foam top.</p>
+                <h3 id="main">Mocha</h3>
+                <p >Espresso, chocolate, steamed milk, and whipped cream.</p>
+                <h3 id="main">Latte</h3>
+                <p>Espresso with a large amount of steamed milk and a small amount of foam.</p>
+                <h3 id="main">Americano</h3>
+                <p>with hot water for a coffee flavor that's less intense.</p>
+        </div>
+</section>
+<button onclick="document.location='index.html'">Go back</button>
+
+</body>
+</html>

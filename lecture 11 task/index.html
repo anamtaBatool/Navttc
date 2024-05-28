@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee House</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+       * {
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.list{
+    margin-left: 750px;
+}
+a {
+    text-decoration: none;
+    color: #f8f8f8;
+}
+header {
+    background-color:#6d3521; 
+    color: #fff;
+    padding: 30px 0; 
+    display: flex;
+    align-items: center;
+}
+header h1{
+    padding-left: 30px;
+}
+.list ul {
+    margin-top: 20px;
+    list-style: none;
+    display: flex; 
+}
+
+.list ul li {
+    margin-right: 20px; 
+    font-size: 20px;
+}
+button {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color:rgba(206, 94, 74, 0.5);
+    color: #353131; 
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.about {
+    padding: 80px 0;
+    text-align: center;
+    top: 10;
+    left: 50%;
+    background-image: url("coffee-shop.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 20px;
+    height: 100vh ;
+
+}
+.about h2{
+    color: #fffefe;
+    padding-top: 100px;
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.about p{
+    line-height: 30px;
+}
+.contact h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact {
+    background-color: #5f3b2d;
+    color: #0e0d0d;
+    padding: 80px 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+   
+}
+.contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    color: #fff;
+}
+
+
+.social-icon {
+    color: #030202;
+    font-size: 28px;
+}
+footer {
+    background-color: #535050;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+} 
+</style>
+</head>
+<body>
+    <!--header section -->
+    <header>
+        <div class="main">
+            <h1>The Coffee House</h1>
+            <div class="list">
+                <ul>
+                    <li><a href="#about" class="header">About Us</a></li>
+                    <li><a href="#contact" class="header">Contact Us</a></li>
+                    <li><a href="menu.html" class="header">Menu</a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <!--about us section-->
+    </header>
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about serving the finest coffee in a cozy and inviting atmosphere.</p>
+        <p>Indulge in the aroma of exceptional coffee and more.</p>
+        <p>Step into our haven and immerse yourself in the comforting embrace of our carefully curated space  </p>
+        <p>Sit back, chill, and enjoy each sip of your favorite drink in our place, where you'll feel right at home with our friendly vibe.  </p>
+        <button onclick="document.location='menu.html'">Explore our menu</button>
+    </section>
+           <!--contact section-->
+     <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> thecoffeehouse@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 123456-7890</p>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <!--footer-->
+     <footer>
+        <p>&copy The Coffee House. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+    
+</body>
+</html>
