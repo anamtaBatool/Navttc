@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(214, 81, 103);
+    color: white;
+}
+h1{
+    color: rgb(76, 76, 153);
+}
+h2{
+    color: rgb(204, 11, 11);
+    background-color: rgb(236, 234, 231);
+}
+img{
+    size: 0rem;
+}
+a{
+    background-color: rgb(204, 11, 11);
+    color: rgb(250, 249, 249);
+}
+#intro{
+    color: rgb(6, 87, 112);
+}
+#recipes{
+    color: rgb(35, 180, 43);
+}
+button{
+    background-color: rgb(22, 30, 139);
+    border: rgb(255, 0, 119);
+    border-radius: 20%;
+    color: rgb(220, 216, 230);
+    padding: 60px 40px;
+    text-align: center;
+    text-decoration: underline;
+    display:inline-block;
+    font-size: 40px;
+}
