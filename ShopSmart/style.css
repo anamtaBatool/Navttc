@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(37, 69, 75);
+    color: rgb(218, 107, 125);
+}
+h2{
+    color: rgb(221, 141, 141);
+}
+#welcome-message{
+    color: #ececec;
+}
+#shopping-experience{
+    color: rgb(224, 19, 214);
+}
+#range{
+    color: rgb(167, 102, 17);
+}
+button{
+    background-color: rgb(211, 161, 35);
+    border: rgb(185, 35, 35);
+    border-radius: 30%;
+    color: rgb(250, 250, 250);
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+}
+td{
+    border: 3px rgb(114, 64, 95) solid;
+    border-radius: unset;
+}
+ul li{
+    color:rgb(246, 248, 123)
+}
+ul li a{
+    color: rgb(246, 248, 123);
+}
